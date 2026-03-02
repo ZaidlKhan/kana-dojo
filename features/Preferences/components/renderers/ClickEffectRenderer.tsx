@@ -59,7 +59,7 @@ export default function ClickEffectRenderer() {
     window.addEventListener('resize', resize);
 
     // ── Spawn burst ───────────────────────────────────────────────────────────
-    const BURST_COUNT = 7;
+    const BURST_COUNT = 10;
 
     const spawnAt = (x: number, y: number) => {
       const bmp = getEmojiBitmap(emoji, 48);
@@ -73,7 +73,7 @@ export default function ClickEffectRenderer() {
           vx: Math.cos(angle) * speed,
           vy: Math.sin(angle) * speed,
           life: 1,
-          decay: 0.007 + Math.random() * 0.003,
+          decay: 0.0035 + Math.random() * 0.0015, // ~200-285 frame lifespan (~3.5-5s)
           size: Math.random() * 10 + 40,
           rotation: Math.random() * Math.PI * 2,
           rotationSpeed: (Math.random() - 0.5) * 0.08,

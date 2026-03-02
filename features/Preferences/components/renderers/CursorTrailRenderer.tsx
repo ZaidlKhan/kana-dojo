@@ -81,7 +81,7 @@ export default function CursorTrailRenderer() {
         p.vx = (Math.random() - 0.5) * 0.12;
         p.vy = Math.random() * 0.15 + 0.04;
         p.life = 1;
-        p.decay = 0.008 + Math.random() * 0.003;
+        p.decay = 0.004 + Math.random() * 0.0015;
         p.size = 40;
         p.rotation = (Math.random() - 0.5) * 0.25;
         p.rotationSpeed = (Math.random() - 0.5) * 0.02;
@@ -94,7 +94,7 @@ export default function CursorTrailRenderer() {
           vx: (Math.random() - 0.5) * 0.12,
           vy: Math.random() * 0.15 + 0.04,
           life: 1,
-          decay: 0.008 + Math.random() * 0.003, // ~100-125 frame lifespan
+          decay: 0.004 + Math.random() * 0.0015, // ~200-250 frame lifespan (~3.5-4s)
           size: 40,
           rotation: (Math.random() - 0.5) * 0.25,
           rotationSpeed: (Math.random() - 0.5) * 0.02,
