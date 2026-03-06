@@ -1473,7 +1473,7 @@
     "id": 246,
     "fact": "The Japanese word 'nureta' (濡れた) means wet, but 'nureta yuugure' is used poetically for rain-soaked sunsets.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 247,
@@ -1485,7 +1485,7 @@
     "id": 248,
     "fact": "The word 'kazaana' (風穴) refers to naturally cool caves used historically to store ice and preserve food in summer.",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": 249,
@@ -1592,7 +1592,7 @@
   {
     "id": 266,
     "fact": "The phrase 'okage-sama' (おかげさま) expresses gratitude for unseen support — like thanking the people behind your success.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
