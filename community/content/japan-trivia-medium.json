@@ -327,5 +327,16 @@
   "difficulty": "medium",
   "answers": ["Taiko", "Shamisen", "Koto", "Fue"],
   "correctIndex": 0
+  },
+  {
+  "question": "Which Japanese city hosted the 1998 Winter Olympics? (Community variation 57)",
+  "difficulty": "medium",
+  "answers": [
+    "Nagano",
+    "Sapporo",
+    "Niigata",
+    "Sendai"
+  ],
+  "correctIndex": 0
   }
 ]
